@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0f0f1a"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📱"
+        android:textSize="80sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ST Mobile"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&amp; Designing POS"
+        android:textColor="#aaaacc"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="4dp" />
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:background="#6c63ff"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="v26 🚀"
+        android:textColor="#6c63ff"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:layout_marginTop="12dp" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="#6c63ff"
+        android:layout_marginTop="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading..."
+        android:textColor="#666688"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
